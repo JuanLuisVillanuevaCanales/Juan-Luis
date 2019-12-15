@@ -1,0 +1,9 @@
+%pylab inline 
+
+def mi_media(lista):
+    return float(sum(lista))/len(lista)
+    
+x_input = [1,3,4,5,5,7,7,6,8,6,7]
+
+print mi_media(x_input)
+print mean(x_input)
